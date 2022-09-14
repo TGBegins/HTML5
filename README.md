@@ -79,20 +79,22 @@ HTML에 대해 배운 것들.
 
 6) 캡션
   - `<div>`태그를 통한 이미지 캡션 입력
-```<div>   
+	```
 	<div>   
-		<img>   
-	</div>   
-	<em> 캡션 </em>   
-</div>```   
-
+		<div>   
+			<img>   
+		</div>   
+		<em> 캡션 </em>   
+	</div>
+	```	
   - `<figure>`태그를 통한 이미지 캡션 입력   
-  	캡션을 붙일 대상을 figure /figure태그로 감싸줌
-```<figure>   
-	<이미지, 동영상 등>   
-<figcaption> 캡션내용 </figcaption>   
-</figure>```
-
+  	캡션을 붙일 대상을 `<figure>` `</figure>`태그로 감싸줌
+```
+<figure>
+	<이미지, 동영상 등>
+	<figcaption> 캡션내용 </figcaption>
+</figure>
+```
 7)표 만들기
 
   - `<table>` : 표 전체
