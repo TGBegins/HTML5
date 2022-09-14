@@ -31,6 +31,40 @@ HTML에 대해 배운 것들.
   - `<mark>` : 형광펜 효과.
   
 2) 특수 문자 및 특수 기호
-  - 일반적으로 브라우저에 특수 문자나 기호를 입력하는건 불가능.
-  - 따라서 특별한 코드들을 입력해야 한다.
+  - 일반적으로 브라우저에 특수 문자나 기호를 입력하는건 불가능.   
+  - 따라서 특별한 코드들을 입력해야 한다.   
   - 특수문자코드 [링크](https://html.spec.whatwg.org/multipage/named-characters.html)
+
+3) 웹에서 사용하는 목록
+  - 순서 없는 목록
+    `<ul>` - unordered list
+      `<li>` - list item  `</li>`
+    `</ul>`
+    목록 안에 또다른 목록을 넣을 수도 있음.   
+    이경우 자동으로 불릿이 변경됨.   
+    type 속성을 통해 목록의 불릿 조정.   
+
+
+  - 순서 목록
+    `<ol>` - ordered list
+      `<li>` list item `</li>`
+    `</ol>`
+    type 속성을 통해 목록의 숫자 조정. A, a, I, i,   
+    start 속성을 통해 시작 번호 수정
+
+  -설명 목록
+    `<dl>` description list  / `<dt>` description title / `<dd>` description data   
+    주로 FAQ같은 부분에서 사용된다.
+    `<dl>`   
+	    `<dt>`이름 1`</dt>`   
+	    `<dd>` 값1 `</dd>`   
+	    `<dt>`이름2`</dt>`   
+	    `<dd>`값2`</dd>`   
+    `</dl>`
+
+4) 기타 유용한 태그들
+  - `<address>`태그- 연락처 정보
+  - `<time>`태그-날짜, 시간정보
+  - `<span>`태그 - 영역묶기
+  - `<div>` => 블록레벨 영역묶기. 한라인 다 차지한다.
+  div로 묶으면 한덩어리로 생각해서 스타일 적용이 쉬워짐.
